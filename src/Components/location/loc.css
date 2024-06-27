@@ -1,0 +1,90 @@
+.loc {
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 20px; 
+    font-family: 'Roboto', sans-serif; 
+    text-align: left; 
+    background-color: #f9f9f9;
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.ven {
+    margin-bottom: 25px;
+    background-color: #fff;
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.ven h2 {
+    font-size: 28px; 
+    color: #333; 
+    margin-bottom: 10px; 
+    border-bottom: 2px solid #ddd; 
+    padding-bottom: 5px;
+}
+
+.ven p {
+    font-size: 20px; 
+    color: #555; 
+    margin: 0; 
+}
+
+.mp {
+    text-align: center; 
+    margin-top: 20px; 
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.mp iframe {
+    width: 100%; 
+    max-width: 800px;
+    height: 450px; 
+    border: none; 
+    border-radius: 8px; 
+}
+
+.travel {
+    margin-top: 25px; 
+    background-color: #fff;
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.travel h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px; 
+    border-bottom: 2px solid #ddd; 
+    padding-bottom: 5px; 
+}
+
+.travel .air, .travel .road {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+    margin-bottom: 10px; 
+}
+
+.travel .air p, .travel .road p {
+    font-size: 20px; 
+    color: #555; 
+    margin: 0; 
+}
+
+.travel .air a, .travel .road a {
+    font-size: 18px; 
+    color: #007bff; 
+    text-decoration: none; 
+    margin-left: 10px;
+}
+
+.travel .air a:hover, .travel .road a:hover {
+    text-decoration: underline; 
+}

@@ -1,0 +1,93 @@
+.sponsers {
+  padding: 20px;
+  max-width: 1500px;
+  margin: 0 auto;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 5s ease, transform 0.5s ease;
+  margin-bottom: 200px;
+}
+
+.sponsers.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.txt {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.spo2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.spo2 img {
+  max-width: 170px;
+}
+
+.pt {
+  margin-left: 80px;
+}
+
+.gd {
+  margin-left: 100px;
+}
+
+.sl {
+  margin-left: 430px;
+}
+
+.bz {
+  margin-left: 430px;
+}
+
+.spo-main h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.spo-main img {
+  width: 50px;
+  height: auto;
+}
+
+.sponsers ul {
+  padding-left: 20px;
+}
+
+.sponsers ul li {
+  margin-bottom: 10px;
+  list-style-type: disc;
+  font-size: 20px;
+}
+
+.brochure {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.brochure p {
+  font-size: 26px;
+  padding: 20px;
+  background-color: rgb(15, 12, 12);
+  color: white;
+  border-radius: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+.brochure span a {
+  font-size: 24px;
+  color: rgb(255, 0, 0);
+}
+
+.brochure span a:hover {
+  text-decoration: underline;
+}

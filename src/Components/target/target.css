@@ -1,0 +1,58 @@
+.target {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 100px;
+  animation: fadeInUp 9s ease forwards;
+}
+
+.target img {
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  width: 80%;
+  z-index: -1;
+  opacity: 0.2;
+  border-radius: 170px;
+}
+
+.target ul {
+  position: relative;
+  list-style-position: inside;
+  padding: 20px;
+  margin: 0;
+  max-width: 1200px;
+  text-align: left;
+  z-index: 1;
+}
+
+.target ul::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background-color: rgba(224, 212, 212, 0.5);
+  z-index: -1;
+}
+
+.target li {
+  font-family: 'Overpass', sans-serif;
+  font-size: 24px;
+  line-height: 1.6;
+  margin-bottom: 5px;
+}
+
+.t12 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+}

@@ -1,0 +1,33 @@
+.foot {
+    justify-content: center; 
+    align-items: center; 
+  }
+  .line {
+    margin-left:190px;
+    width:80%; 
+    height: 2px; 
+    background-color: black; 
+    margin-bottom: 20px;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: space-around; 
+    max-width: 1500px;
+    width: 150%;
+    padding: 20px; 
+    box-sizing: border-box; 
+    margin-left: 180px;
+  }
+  
+  .logo-box {
+    flex-basis: 20%; 
+    text-align: center; 
+  }
+  
+  .logo-box img {
+    max-width: 180%; 
+    max-height: 100px; 
+    margin: 10px; 
+  }
+  

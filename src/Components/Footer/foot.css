@@ -1,6 +1,7 @@
 .foot {
     justify-content: center; 
-    align-items: center; 
+    align-items: center;
+    width:800px; 
   }
   .line {
     margin-left:190px;

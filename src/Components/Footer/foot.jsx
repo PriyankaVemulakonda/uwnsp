@@ -8,7 +8,7 @@ import lg from '../../assets/logo.png'
 const foot = () => {
   return (
     <div className='foot'>
-     <div className="line"></div>
+     
         <div className="logo-container">
             <div className="logo-box">
             <img src={iit} alt="" />
@@ -22,8 +22,7 @@ const foot = () => {
             <div className="logo-box">
             <img src={log} alt="" />
             </div>
-    
-</div>
+        </div>
 
     </div>
   )
